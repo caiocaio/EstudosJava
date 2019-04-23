@@ -1,0 +1,39 @@
+import java.time.LocalDate;
+
+public class Aula02Main {
+	public static void main(String[] args) {
+		
+		Pessoa daniel = new Pessoa ("Daniel" ,"12345678909", (LocalDate.of(1999, 7, 24)));
+		
+		Endereco enderecoD = new Endereco ("Rua X", (10), "1.83F", "20",
+				"Setor Central" , (74987654),"Goiania", "Goinia"); //associacao
+		
+		Pessoa ana = new Pessoa("Ana", "98765432100", (LocalDate.of(1999, 7, 24)));
+		//ana.endereco = "Rua Z, num 11. Setor Central"
+		ana.setAltura(1.70F);
+		ana.setIdade(19);
+		
+		
+		imprimir(daniel);	
+		imprimir(enderecoD);
+		imprimir(ana);
+		//enderecoA
+		
+		
+	}
+	
+	public static void imprimir(Pessoa pessoa) {
+		System.out.println(pessoa.getNome() + " - " 
+		+ pessoa.getIdade() + " anos de idade.");
+	}
+	
+	public static void imprimir(Endereco enderecoD){
+		System.out.println(enderecoD.getLogradouro()+ " - " + enderecoD.getNumero() + " - "  );
+		
+		//fazer um toString dentro da classe que deseja imprimir.
+		
+		
+		
+	}
+	// Crie uma classe para representar o endereço
+}

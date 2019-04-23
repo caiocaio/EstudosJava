@@ -1,0 +1,11 @@
+import java.time.LocalDate;
+
+public class Aula4Main {
+	public static void main(String[] args) {
+		Pessoa pessoa1 = new Professor ("Augusto de Carvalho");
+		
+		pessoa1.setDataNascimento(LocalDate.of(1990, 03, 03));
+		
+	}
+
+}

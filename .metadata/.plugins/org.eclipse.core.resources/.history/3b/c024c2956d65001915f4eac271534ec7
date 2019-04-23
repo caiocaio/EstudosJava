@@ -1,0 +1,21 @@
+package array1;
+import java.util.Arrays;
+public class MainArray {
+	
+		
+		static char[][] quadroDeEstrelas = new char [10][10];
+		
+		public static void quadroDeEstrelas() {
+			
+			for(char[] roalar : quadroDeEstrelas) {
+				
+				Arrays.fill(rolar, '*');
+				
+			}
+		}
+		
+		
+		
+	
+
+}

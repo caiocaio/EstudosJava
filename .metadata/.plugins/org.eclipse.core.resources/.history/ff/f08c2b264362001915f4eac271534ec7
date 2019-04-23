@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Input {
+	public void function pegaInput() {
+		
+		System.out.println("Digite um numero: ");
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}
+

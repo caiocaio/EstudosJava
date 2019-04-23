@@ -1,0 +1,12 @@
+package array1;
+import java.util.Arrays;
+public class MainArray {
+	
+	public static void main(String[] args) {
+		
+		static char[][] quadroDeEstrelas = new char [10][10]; 
+		
+		
+	}
+
+}

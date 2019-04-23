@@ -1,0 +1,16 @@
+package array1;
+public class RealMain {
+	
+	public static void main(String[] args) {
+		
+		//MainArray.construirQuadroDeEstrelas();
+		
+		 char[][] TempQuadroDeEstrelas = new char[10][10];
+				
+		 MainArray.fazer();
+		
+		
+	}
+	
+
+}

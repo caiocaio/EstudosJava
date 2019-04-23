@@ -1,0 +1,8 @@
+public class Estudante extends Pessoa {
+	
+	private String curso;
+	private String periodo;
+	private String instituicao;
+	
+	
+}

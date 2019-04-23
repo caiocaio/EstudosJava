@@ -1,0 +1,7 @@
+
+public class Aula4Main {
+	public static void main(String[] args) {
+		Pessoa pessoa1 = new Pessoa("Augusto de Carvalho");
+	}
+
+}

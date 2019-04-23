@@ -1,0 +1,20 @@
+public class Estudante extends Pessoa {
+	
+	private String curso;
+	private String periodo;
+	private String instituicao;
+	public String getCurso() {
+		return curso;
+	}
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+	public String getPeriodo() {
+		return periodo;
+	}
+	public void setPeriodo(String periodo) {
+		this.periodo = periodo;
+	}
+	
+	
+}

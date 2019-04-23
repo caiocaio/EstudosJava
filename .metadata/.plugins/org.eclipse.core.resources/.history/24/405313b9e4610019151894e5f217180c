@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Input {
+	
+	
+	static Scanner userInput = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.print("Escreva um numero: ");
+	do {	
+		if (userInput.hasNextInt()) {
+			
+			int numberEntered = userInput.nextInt();
+			
+			System.out.println("Vc digitou certo! Seu numero eh: " + numberEntered);
+			return true;
+		}else {
+			System.out.println("vc nao escreveu um numero, tente de novo ");
+			
+			return false;
+			
+			}while(true)
+		}	
+	}
+	
+}
